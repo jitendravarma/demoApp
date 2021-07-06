@@ -14,6 +14,11 @@ This is a demo application to show file upload via json and display.
     1. npm build
 1. You might need to install [postgres](https://www.enterprisedb.com/postgres-tutorials/how-install-postgres-ubuntu) as well
 1. Edit local.py as per your postgres database, port no and database name
+1. Create migration directory in core app at the base directory
+    1. cd core
+    2. mkdir migrations
+    3. cd migrations
+    4. touch __init.py__
 1. Migrate the app
     1. ./manage.py makemigrations
     1.  ./ manage.py migrate
